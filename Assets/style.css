@@ -1,0 +1,268 @@
+html { 
+    box-sizing: border-box;
+    font-size: 62.5%; /** 1 rem = 10pi**/
+
+}
+
+*,*::before, ::after {
+    box-sizing: inherit;
+}   
+
+body {
+    background-color: #011627;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+h2 {
+    color: #ffffff;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 2rem;
+}
+
+.banner {
+    margin-top: 9rem;
+}
+
+button {
+    background-color: #FF9F1C;
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+/*Header e menu*/
+
+header {
+    background-image: url(Imagens/backgroudmenu.png);
+    height: 58rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background 0.3s;
+}
+
+.menu li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+.login a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #FF9F1C;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.login a:hover {
+    background-color: #FF9F1C;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+/*Sessão de promoção*/
+
+.lista-pacotes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 1rem;
+    gap: 3.5rem;
+    
+}
+
+.pacotesbox {
+    box-shadow: 0.5rem 0.5rem 1.8rem #342b50;
+    border-radius: 2rem;
+}
+
+
+/*Sessão Hoteis*/
+
+.pacotes-hoteis {
+    margin-top: 8rem;
+}
+
+.lista-hoteis {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.hotel:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: grid;
+}
+
+.hotel:nth-child(2) {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    display: grid;
+}
+
+.hotel:nth-child(3) {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    display: grid;
+}
+
+.hotel:nth-child(4) {
+    grid-column-start: 7;
+    grid-column-end: 13;
+    display: grid;
+    background-color: #011627;
+}
+
+.hotel:nth-child(5) {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    display: grid;
+    background-color: #011627;
+}
+
+.hotel:nth-child(6) {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    display: grid;
+}
+
+.hotel:nth-child(7) {
+    grid-column-start: 9;
+    grid-column-end: 11;
+    display: grid;
+}
+
+.hotel:nth-child(8) {
+    grid-column-start: 11;
+    grid-column-end: 13;
+    display: grid;
+}
+
+.hotel {
+    background-color: #ffffff;
+    border-radius: 2rem;
+}
+
+.info {
+    margin: 0rem;
+}
+
+.parcelamento {
+    border-top: .1rem solid #d3d3d3;
+    margin-top: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.icon-star {
+    width: 10rem;
+    padding-left: .1rem;
+}
+
+.nome-destino {
+    font-size: large;
+    text-decoration-color: #000000;
+    
+    padding-left: 1rem;
+}
+
+h3, h5, h4 {
+    margin: 0rem;
+    padding-left: 1rem;
+}
+
+h3 {
+    margin-top: 1rem;
+}
+
+h5 {
+    color: #575757;
+}
+
+h4 {
+    color: #a7a7a7;
+}
+
+.preco {
+   padding-left: 1rem;
+}
+
+p {
+  margin: 0rem;
+  padding-top: 4rem;
+  padding-left: 1rem;
+}
+
+h4 span {
+   color: #000000;
+   font-size: x-large;
+}
+
+.explorar-btn {
+   padding-left: 4rem;
+}
+
+.explorar-grid1 h2 {
+   padding-top: 15rem;
+   padding-left: 2rem;
+}
+
+.explorar-grid2 h2 {
+    padding-top: 15rem;
+ }
+
+.btn-grid1 {
+   padding-bottom: 15rem;
+   padding-left: 2rem;
+}
+
+.btn-grid2 {
+    padding-bottom: 15rem;
+ }
